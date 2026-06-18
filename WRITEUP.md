@@ -14,7 +14,7 @@ Deseo trabajar en OCMI  porque se trabaja con Payroll y es un entorno donde es m
 Decidí usar SQLite con better-sqlite en vez de usar PostgreSQL con Docker porque resulta mucho mas sencillo para desarrollar el assessment, es mucho mas comodo para revisar y el uso de Drizzle lo hace mucho mas portable.
 
 ### Decision 2 — Next.js App Router over Vite Router
-Decidi usar Next.js con app router sobre las otras opciones como vite + router, remix y TankStack,  porque es un stack que ya conozco y es un stack bueno para crear aplicaciones server/client mixtas.
+Decidi usar Next.js con app router porque puedo usar pantallas anidadas y react server components  de manera sencilla, lo justo para la app solicitada. Rechacé como vite + router, remix y TankStack porque no queria agregar mas tiempo a la curva de aprendizaje.
 
 ### Decision 3 — Shared Zod
 En este punto se decidio usar safeParse antes de enviar los formularios  en vez de solo validar en el api y que el cliente confie ciegamente en el servidor. Aunque aumenta el acoplamiento se obtiene una respuesta rapida sin tener que ir y volver con el api. Se maneja solo una fuente de verdad. 
@@ -30,6 +30,6 @@ No tengo experiencia con react Native, Mi experiencia movil es con Flutter  y Ko
 
 
 ### Development environment
-MacOS 26.4.1 , Apple M4, 16GB de RAM
+MacOS 15.4 , Apple M4, 16GB de RAM
 
 
